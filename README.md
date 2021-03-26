@@ -14,8 +14,7 @@ The oscillation between on-site, partially remote, and fully-remote education ha
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
 
 ### The key feature of Terraform is Infrastructure as Code
-Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used.
-
+Infrastructure as Code (IaC) allows you to provision and manage the full technology stack using automation, by translating manual, repetitive tasks into reusable, robust, secure, and distributable code. Using IaC, you can create golden templates to simplify your work. You can continuously design-build-deploy-destroy-rollback in live environments so your network can stay agile. And you can use APIs to innovate. 
 ## Requirements
 
 1. Clone the Terraform plan in this Repo
@@ -33,5 +32,5 @@ To inspect the state of your infrastructure - `terraform show`
 
 ## SUCCESS
 You have successfully stood up and entire Kubernetes cluster (EKS) in AWS. 
-you are now ready to deploy your application containers.
+You are now ready to deploy your application containers.
 Check out how to deploy the same infrastructure using [Cisco Intersight and Terraform onprem here](https://github.com/prathjan/iks-intersight-terraform)
